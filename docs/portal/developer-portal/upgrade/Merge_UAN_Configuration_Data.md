@@ -128,13 +128,6 @@ In this procedure, an upgrade from UAN 2.0.0 to UAN 2.3.1 is being performed. Ad
      --file uan-config-2.3.1.json
     ```
 
-    e. Tell CFS to apply the new configuration to UANs by repeating the following command for each UAN. Replace UAN\_XNAME in the command below with the name of a different UAN each time the command is run.
-
-        ```bash
-        ncn-m001# cray cfs components update --desired-config uan-config-2.0.1 \
-        --enabled true --format json UAN_XNAME
-        ```
-
 16. Finish the typescript file started at the beginning of this procedure.
 
     ```bash
